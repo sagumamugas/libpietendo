@@ -46,6 +46,12 @@
     <Filter Include="Source Files\hac\es">
       <UniqueIdentifier>{de5684e3-d216-40ca-b242-f2d279597e72}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\hac\fileformat">
+      <UniqueIdentifier>{d97f749e-532b-4691-a718-1aee3908e1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pietendo\hac\fileformat">
+      <UniqueIdentifier>{023a9f9d-1ef7-42d2-ad25-0218503b0e79}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\pietendo.h">
@@ -456,6 +462,15 @@
     <ClInclude Include="..\..\..\include\pietendo\hac\BKTRSubsectionEncryptedStream.h">
       <Filter>Header Files\pietendo\hac</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\include\pietendo\hac\KeyBag.h">
+      <Filter>Header Files\pietendo\hac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\pietendo\hac\fileformat\NcaFileFormat.h">
+      <Filter>Header Files\pietendo\hac\fileformat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\pietendo\hac\fileformat\MetaFileFormat.h">
+      <Filter>Header Files\pietendo\hac\fileformat</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\ctr\CciFsSnapshotGenerator.cpp">
@@ -700,6 +715,15 @@
     </ClCompile>
     <ClCompile Include="..\..\..\src\hac\BKTRSubsectionEncryptedStream.cpp">
       <Filter>Source Files\hac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hac\KeyBag.cpp">
+      <Filter>Source Files\hac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hac\fileformat\MetaFileFormat.cpp">
+      <Filter>Source Files\hac\fileformat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hac\fileformat\NcaFileFormat.cpp">
+      <Filter>Source Files\hac\fileformat</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

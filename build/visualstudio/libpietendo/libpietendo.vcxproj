@@ -232,6 +232,8 @@
     <ClInclude Include="..\..\..\include\pietendo\hac\es\SignUtils.h" />
     <ClInclude Include="..\..\..\include\pietendo\hac\es\ticket.h" />
     <ClInclude Include="..\..\..\include\pietendo\hac\es\TicketBody_V2.h" />
+    <ClInclude Include="..\..\..\include\pietendo\hac\fileformat\MetaFileFormat.h" />
+    <ClInclude Include="..\..\..\include\pietendo\hac\fileformat\NcaFileFormat.h" />
     <ClInclude Include="..\..\..\include\pietendo\hac\FileSystemAccessControl.h" />
     <ClInclude Include="..\..\..\include\pietendo\hac\FileSystemAccessUtil.h" />
     <ClInclude Include="..\..\..\include\pietendo\hac\GameCardFsSnapshotGenerator.h" />
@@ -254,6 +256,7 @@
     <ClInclude Include="..\..\..\include\pietendo\hac\KernelInitialProcessHeader.h" />
     <ClInclude Include="..\..\..\include\pietendo\hac\KernelVersionEntry.h" />
     <ClInclude Include="..\..\..\include\pietendo\hac\KernelVersionHandler.h" />
+    <ClInclude Include="..\..\..\include\pietendo\hac\KeyBag.h" />
     <ClInclude Include="..\..\..\include\pietendo\hac\MemoryMappingHandler.h" />
     <ClInclude Include="..\..\..\include\pietendo\hac\MemoryPageEntry.h" />
     <ClInclude Include="..\..\..\include\pietendo\hac\Meta.h" />
@@ -316,6 +319,8 @@
     <ClCompile Include="..\..\..\src\hac\es\SignatureBlock.cpp" />
     <ClCompile Include="..\..\..\src\hac\es\SignUtils.cpp" />
     <ClCompile Include="..\..\..\src\hac\es\TicketBody_V2.cpp" />
+    <ClCompile Include="..\..\..\src\hac\fileformat\MetaFileFormat.cpp" />
+    <ClCompile Include="..\..\..\src\hac\fileformat\NcaFileFormat.cpp" />
     <ClCompile Include="..\..\..\src\hac\FileSystemAccessControl.cpp" />
     <ClCompile Include="..\..\..\src\hac\FileSystemAccessUtil.cpp" />
     <ClCompile Include="..\..\..\src\hac\GameCardFsSnapshotGenerator.cpp" />
@@ -337,6 +342,7 @@
     <ClCompile Include="..\..\..\src\hac\KernelInitialProcessHeader.cpp" />
     <ClCompile Include="..\..\..\src\hac\KernelVersionEntry.cpp" />
     <ClCompile Include="..\..\..\src\hac\KernelVersionHandler.cpp" />
+    <ClCompile Include="..\..\..\src\hac\KeyBag.cpp" />
     <ClCompile Include="..\..\..\src\hac\MemoryMappingHandler.cpp" />
     <ClCompile Include="..\..\..\src\hac\MemoryPageEntry.cpp" />
     <ClCompile Include="..\..\..\src\hac\Meta.cpp" />
